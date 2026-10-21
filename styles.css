@@ -26,4 +26,15 @@ h2{
     #table-2 td { height: 24px; }
     #table-3 td { vertical-align: middle; }
     #t-image { text-align: center; }
+ td {
+            border: 2px solid #555;
+            height: 28px;
+        }
+
+        /* First and last rows */
+        tr:first-child td,
+        tr:last-child td {
+            height: 28px;
+        }
+
     #t-image img { display: block; margin: 0 auto; }
